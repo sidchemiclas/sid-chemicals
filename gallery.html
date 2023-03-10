@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .first{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(pink,rgb(245, 166, 18,0.8));
+        }
+        nav{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            width: 100%;
+            height: 40px;
+            background-color: rgb(47, 6, 108);
+            position: fixed;
+            
+        }
+        nav ul{
+        display: block;
+        }
+        nav ul li{
+            display: inline-block;
+            padding: 15px;
+            list-style: none;
+            text-decoration: none;
+            align-items: center;
+        justify-content: center;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(226, 220, 220);
+        }
+        nav ul li :hover{
+            background-color: rgb(91, 26, 189);
+        }
+        .scroll{
+            position: absolute;
+            width: 50%;
+            height: 60%;
+            top: 20%;
+            right: 7%;
+            background: url('https://lh5.googleusercontent.com/p/AF1QipOqnrRBQEKZnaJvaZcwa57jovg_uG3skRDXEbC8=w296-h202-n-k-no-v1');
+            background-repeat: none;
+            background-size: cover;
+            animation: slide;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            border-radius: 10px;
+            box-shadow: 5px 5px rgb(23, 18, 119);
+        }
+        @keyframes slide{
+            0%{
+                background: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg');
+                background-repeat: none;
+            background-size: cover;
+            }
+            25%{
+                background: url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg');
+                background-repeat: none;
+            background-size: cover;
+            }
+            50%{
+                background: url('https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_1280.jpg');
+                background-repeat: none;
+            background-size: cover;
+            }
+            75%{
+                background: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg');
+                background-repeat: none;
+            background-size: cover;
+            }
+            100%{
+                background: url('https://media.istockphoto.com/id/506293036/photo/lotus-flower-blossom.jpg?b=1&s=170667a&w=0&k=20&c=SQqEowPCO_yujpcfhyanSZ7tKEAnxtswtt7IJhcYkmw=');
+                background-repeat: none;
+            background-size: cover;
+            }
+
+
+        }
+        .gal{
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            font-size: 30px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        .bottem1{
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            background-color: black;
+        }
+        .bottem-items{
+            display: block;
+            background-color:black;
+            width: 15%;
+            height: 50vh;
+            border-radius: 10px;
+        }
+        .bottem-items ul li a{
+            color: #f9f9f9;
+            text-decoration: none;
+        }
+        .bottem-items ul li{
+            padding: 25px;
+        }
+        .bottem-items ul li:hover{
+            background-color: #871b1b;
+
+        }
+        .address{
+            position: absolute;
+            float: center;
+            top: 10%;
+            left: 40%;
+            line-height: 2;
+            background-color:black;
+            color: #f9f9f9;
+            font-style: italic;
+        }
+        .loc{
+            position: absolute;
+            top: 70%;
+            float: center;
+            left: 43%;
+
+        }
+        .contact{
+            position: absolute;
+            top: 1%;
+            left: 77%;
+            color: #f9f9f9;
+            font-style: italic;
+            font-size: 17px;
+        }
+        .icons{
+            position: absolute;
+            top: 10%;
+            left: 75%;
+            line-height: 1.5px;
+        }
+        .icons ul li{
+            padding: 10px;
+        }
+        .icons-names{
+            display: block;
+            position: absolute;
+            top: 10%;
+            left: 80%;
+            color: #f9f9f9;
+            line-height: 2px;
+            border-radius: 10px;
+            line-height: 2px;
+        }
+        .icons-names ul li a{
+            color: #f9f9f9;
+            text-decoration: none;
+        }
+        .icons-names ul li{
+            padding: 25px;
+            line-height: 2px;
+            text-decoration: none;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="first">
+        <nav>
+            <ul>
+                <li> <a href="chemicals.html">Home</a> </li>
+                <li> <a href="products.html">Products</a> </li>
+                <li> <a href="#">Applications</a> </li>
+                <li> <a href="gallery.html">Gallery</a> </li>
+                <li> <a href="#">About</a> </li>
+            </ul>
+        </nav>
+        <div class="scroll">
+
+        </div>
+        <div class="gal">
+            <h1>Gallery..</h1>
+        </div>
+
+    </section>
+    <section class="bottem1">
+        <div class="bottem">
+            <div class="bottem-items">
+<ul>
+                    <li> <a href="chemicals.html">Home</a> </li>
+                    <li><a href="products.html">Products</a>  </li>
+                    <li> <a href="#">Applications</a> </li>
+                    <li> <a href="#">gallery</a> </li>
+                    <li> <a href="#">About us</a> </li>
+</ul>
+</div>
+        </div>
+        <p class="address">
+            place:Auto nagar <br>
+            mandal:vijayawada <br>
+            district:vijayawada <br>
+            poin code:563546 <br>
+            state: Andhrapradesh</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="" class="loc" width="70px" height="70px">
+            <div class="contact">
+                <h1>Contact</h1>
+            </div>
+            <div class="icons">
+                <ul>
+                    <li>
+                        <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="" width="40px" height="40px">
+                    </li>
+                    <li> <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" alt=""  width="40px" height="40px"> </li>
+                    <li> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt=""  width="40px" height="40px" > </li>
+                    <li> <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt=""  width="40px" height="40px"> </li>
+                </ul>
+                
+            </div>
+            <div class="icons-names">
+                <ul>
+                    <li>Email</li> <br><br><br>
+                    <li>Facebook</li> <br><br><br><br><br><br><br> <br> <br>
+                    <li>Instagram </li> <br><br> <br><br> <br> <br>
+                    <li>Linkedin</li>
+                </ul>
+                
+            </div>
+
+    </section>
+    
+    
+</body>
+</html>
