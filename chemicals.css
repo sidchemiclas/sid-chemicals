@@ -1,0 +1,215 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('https://www.investopedia.com/thmb/taiSVxKt0gaNkuCP911o3R95cDY=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-955491344-f978b8072db542cdbce83d48d9648d52.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+
+
+    0%{
+        background: url('https://www.investopedia.com/thmb/taiSVxKt0gaNkuCP911o3R95cDY=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-955491344-f978b8072db542cdbce83d48d9648d52.jpg');
+        background-repeat: none;
+    background-size: cover;
+    }
+    25%{
+        background: url('https://www.offshore-technology.com/wp-content/uploads/sites/20/2021/01/developer.jpg');
+        background-repeat: none;
+    background-size: cover;
+    }
+    50%{
+        background: url('https://media.istockphoto.com/id/1161679863/photo/silhouette-oil-rig.jpg?b=1&s=612x612&w=0&k=20&c=L68Na_x5c3cbVsTc8NBYAVDST9XNCyR4LmhRg-rQkyo=');
+        background-repeat: none;
+    background-size: cover;
+    }
+    75%{
+        background: url('https://www.treehugger.com/thmb/zirXV1Ddz_c6vTekTTFAL07nwMU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2010__05__shutterstock_680239339-67a685cc223f41778a8009fef2bcbbc3.jpg');
+        background-repeat: none;
+    background-size: cover;
+    }
+    100%{
+        background: url('https://www.marineinsight.com/wp-content/uploads/2022/03/5-Biggest-oil-platforms-in-the-world.png');
+        background-repeat: none;
+    background-size: cover;
+    }
+}
+.pic1{
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(47, 6, 108);
+    position:static;
+}
+nav ul{
+display: block;
+}
+nav ul li{
+    display: inline-block;
+
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+justify-content: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(226, 220, 220);
+}
+nav ul li :hover{
+    background-color: rgb(91, 26, 189);
+}
+.second
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.about{
+    position:absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px rgb(70, 71, 167);
+    font-size: 40px;
+    top: 30%;
+    left: 15%;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.pic2{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 40%;
+    height: 40%;
+    background-image: url('https://contentstatic.timesjobs.com/photo/74902695/slideshows/5-tips-to-prepare-for-group-discussion-rounds.jpg');
+    background-repeat: none;
+    background-size: cover;
+    box-shadow: 7px 7px black;
+    border-radius: 20px;
+}
+.three
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.bottem{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 50%;
+    background-color:black;
+}
+.bottem-items{
+    display: block;
+    background-color:black;
+    width: 15%;
+    height: 50vh;
+    border-radius: 10px;
+}
+.bottem-items ul li a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+.bottem-items ul li{
+    padding: 25px;
+}
+.bottem-items ul li:hover{
+    background-color: #871b1b;
+
+}
+.address{
+    position: absolute;
+    float: center;
+    top: 50%;
+    left: 38%;
+    line-height: 2;
+    background-color:black;
+    color: #f9f9f9;
+    font-style: italic;
+}
+.loc{
+    position: absolute;
+    top: 80%;
+    float: center;
+    left: 40%;
+
+}
+.contact{
+    position: absolute;
+    top: 55%;
+    left: 78%;
+    color: #f9f9f9;
+    font-style: italic;
+    font-size: 17px;
+}
+.icons{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    line-height: 1.5px;
+}
+.icons ul li{
+    padding: 10px;
+}
+.icons-names{
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    color: #f9f9f9;
+    line-height: 2px;
+    border-radius: 10px;
+    line-height: 2px;
+}
+.icons-names ul li a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+.icons-names ul li{
+    padding: 25px;
+    line-height: 2px;
+    text-decoration: none;
+    list-style: none;
+}
+.picspot{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 50%;
+
+}
+.picspot1 img{
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px rgb(18, 18, 19);
+}
+.dev{
+    position: absolute;
+    top: 95%;
+    right: 5%;
+    color: white;
+}
