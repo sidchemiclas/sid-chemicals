@@ -229,3 +229,17 @@ nav ul li :hover{
     padding-left: 10px;
     padding-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+  /* Applies to screens with a maximum width of 767px (mobile devices) */
+  body {
+    display: none; /* Hides the entire page */
+  }
+}
+
+.container {
+  /* Applies to screens with a minimum width of 768px (desktop devices) */
+  display: block; /* Displays the container */
+  margin: auto;
+  max-width: 960px;
+  text-align: center;
+}
