@@ -234,7 +234,7 @@ nav ul li :hover{
   body {
     display: none; /* Hides the entire page */
   }
-}
+
 
 .container {
   /* Applies to screens with a minimum width of 768px (desktop devices) */
@@ -242,4 +242,5 @@ nav ul li :hover{
   margin: auto;
   max-width: 960px;
   text-align: center;
+}
 }
